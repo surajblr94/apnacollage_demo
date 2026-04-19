@@ -5,7 +5,7 @@ with customers as (
   id as customer_id,
   first_name,
   last_name
-
+  status
     from {{source('datafeed_shared_schema','raw_customerdata')}}
 
 ),
