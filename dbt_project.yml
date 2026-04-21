@@ -43,3 +43,8 @@ models:
     staging:
       +materialized: table
       +transient: false
+snapshots:
+  my_new_project:
+    example:
+      +target_schema: snapshot
+    
